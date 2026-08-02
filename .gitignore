@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 绘图输出：由 figures/make_*.py 生成，不入库
+figures/out/
+
+# BMv2 / Mininet 运行时产物
+*.pcap
+*.log
+logs/
+p4/*.p4i
+build/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
